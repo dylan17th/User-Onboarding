@@ -7,9 +7,23 @@
     width:40vw;
     padding: 1rem;
     border-radius: 1rem;
+    margin:5rem;
 }
 
 .container label{
     width:100%;
     padding:1rem;
+}
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow:10px 10px 10px 10px lightblue;
+    width:40vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin:5rem;
+}
+.container2 div{
+    width: 50%;
 }

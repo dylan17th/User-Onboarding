@@ -6,11 +6,11 @@ function AddedUser({users}){
     return (
     <div>
         {users.map( user => (
-        <div class='container'>
+        <div class='container2'>
             <div>Name: {user.name}</div>
             <div>email: {user.email}</div>
             <div>password: {user.password}</div>
-            <div>Terms checked: {user.terms === 'checked' ? 'Yes' : 'NO'}</div>
+            <div>Terms checked: {user.terms === false ? 'No' : 'Yes'}</div>
         </div>
     ))}
     </div>
